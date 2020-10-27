@@ -9,7 +9,8 @@
     "dev": "npm run clean && webpack --config webpack.config.js --mode development",
     "build": "npm run clean && webpack --config webpack.config.js --mode production",
     "watch": "webpack --watch --progress --mode development",
-    "serve": "webpack serve --mode development"
+    "serve": "webpack serve --mode development",
+    "serve:prod": "webpack serve --mode production"
   },
   "keywords": [],
   "author": "Mehdi Rahimi <mehdirahimi@email.com>",
